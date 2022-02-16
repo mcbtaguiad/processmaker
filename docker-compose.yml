@@ -10,8 +10,7 @@ services:
       - pm_data:/opt/processmaker
     
   mariadb:
-    #image: mariadb:latest
-    image: linuxserver/mariadb
+    image: mariadb:latest
     container_name: pm_db
     environment:
       MYSQL_ROOT_PASSWORD: Amkor123!
@@ -24,8 +23,7 @@ services:
 
 
   phpmyadmin:
-    #image: phpmyadmin:latest
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin:latest
     container_name: pm_phpmyadmin
     links:
       - mariadb
