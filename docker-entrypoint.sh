@@ -18,7 +18,7 @@ cd /tmp && tar -C /opt -xzvf processmaker-3.5.7-community.tar.gz
 chown -R apache. /opt/processmaker
 
 cp /etc/hosts ~/hosts.new
-sed -i "/127.0.0.1/c\127.0.0.1 localhost localhost.localdomain phsscofdtp6894l.ph.ds.amkor.com `hostname`" ~/hosts.new
+sed -i "/127.0.0.1/c\127.0.0.1 localhost localhost.localdomain `hostname`" ~/hosts.new
 cp -f ~/hosts.new /etc/hosts
 
 chkconfig sendmail on && service sendmail start
