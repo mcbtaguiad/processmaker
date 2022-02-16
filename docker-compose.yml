@@ -1,0 +1,41 @@
+version: "3"
+services:
+  processmaker:
+    build: .
+    container_name: processmaker
+    ports:
+      - "80:80"
+      - "443:443"  
+    volumes:
+      - pm_data:/opt/processmaker
+    
+  mariadb:
+    #image: mariadb:latest
+    image: linuxserver/mariadb
+    container_name: pm_db
+    environment:
+      MYSQL_ROOT_PASSWORD: Amkor123!
+      PUID: 1000
+      PGID: 1000
+    ports:
+      - "3306:3306"
+    volumes:
+      - pm_db:/var/lib/mysql
+
+
+  phpmyadmin:
+    #image: phpmyadmin:latest
+    image: phpmyadmin/phpmyadmin
+    container_name: pm_phpmyadmin
+    links:
+      - mariadb
+    environment:
+      PMA_HOST: mariadb
+      PMA_PORT: 3306
+      PMA_ARBITRARY: 1
+    restart: always
+    ports:
+      - 8080:80
+volumes:
+  pm_data:
+  pm_db:
