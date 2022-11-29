@@ -1,0 +1,125 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            2a:00:0e:74:29:29:e3:4c:34:f2:ec:68:a3:00:00:00:0e:74:29
+        Signature Algorithm: sha512WithRSAEncryption
+        Issuer: C = US, O = AMKOR, CN = Amkor Issuing Certification Authority US
+        Validity
+            Not Before: Mar  4 03:39:50 2022 GMT
+            Not After : Mar  3 03:39:50 2024 GMT
+        Subject: C = MY, ST = MY, L = MY, O = AMKOR, OU = AMKOR, CN = mumdrapp01.my.ds.amkor.com, emailAddress = Mark.Taguiad@amkor.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:d4:08:e8:e1:ca:26:bb:47:34:45:aa:7b:c5:99:
+                    6d:3d:79:95:86:43:38:43:14:b7:49:c9:77:43:29:
+                    5c:22:e0:ae:35:c5:81:1d:c6:07:22:bd:6c:c7:c3:
+                    6a:f1:0e:d4:70:06:df:97:0d:62:f0:ed:dd:cc:8f:
+                    ff:02:88:12:2a:49:46:96:a7:a8:e5:90:ce:91:dc:
+                    73:f2:ac:f0:f4:df:cb:5a:96:1c:6d:83:55:52:29:
+                    f9:94:01:0f:a6:34:14:b1:44:07:c5:bc:01:74:5d:
+                    03:df:11:8b:e2:40:c0:bb:dd:f8:9c:32:ef:12:e1:
+                    8e:d1:b1:7e:4e:f9:ca:86:2f:09:d9:c7:53:31:e1:
+                    13:dc:26:36:9c:75:a3:3a:9f:7a:3f:bf:73:22:64:
+                    b0:e8:92:c7:c7:ed:83:e0:a0:66:de:d9:f2:48:03:
+                    77:9c:e0:87:d3:76:0e:b0:6e:83:e3:6b:3c:c2:3e:
+                    57:35:fa:69:2f:f1:50:0a:5d:41:a6:0c:28:b2:3c:
+                    b3:45:5a:93:bf:7a:29:88:83:d2:9a:1e:90:ad:6a:
+                    7a:d0:7e:2d:3c:77:07:5c:3a:aa:02:3d:a5:32:5a:
+                    83:70:12:47:ef:a0:4e:d3:a9:4d:f2:bb:3e:0d:ae:
+                    81:a2:39:c0:b3:22:42:bf:5a:96:3e:45:8c:e7:58:
+                    07:13
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                8F:F1:18:6C:F5:CE:32:D7:DE:A9:87:18:D5:E8:B1:C8:1B:75:46:6C
+            X509v3 Authority Key Identifier: 
+                keyid:7E:69:75:E4:BD:30:B5:4B:D1:E7:11:63:AE:5A:8F:CA:A0:EF:3C:F0
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://pki.Amkor.net/usica.crl
+
+            Authority Information Access: 
+                CA Issuers - URI:http://pki.Amkor.net/usica.crt
+                OCSP - URI:http://pki.Amkor.net/ocsp
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            1.3.6.1.4.1.311.21.7: 
+                0..&+.....7.........\...*...t...0.y.........d..&
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            1.3.6.1.4.1.311.21.10: 
+                0.0
+..+.......
+            X509v3 Subject Alternative Name: 
+                DNS:mumdrapp01.my.ds.amkor.com, DNS:mumdrapp01.my.ds.amkor.com
+    Signature Algorithm: sha512WithRSAEncryption
+         92:97:5f:c7:c6:98:40:04:2c:c1:45:8f:6d:ab:42:03:31:fd:
+         89:5a:5d:42:ec:0b:4e:44:8a:ae:e9:87:31:46:4c:b2:cb:64:
+         26:40:d1:27:83:d0:3c:65:6d:d3:8e:a1:c7:36:61:92:fd:7d:
+         e2:e5:98:c0:3a:0b:e7:b2:6c:a3:86:3e:78:e2:e0:91:63:cd:
+         80:a9:2b:be:c7:3a:6f:a6:bc:52:a3:6f:da:31:3f:1c:f7:85:
+         7b:4d:52:05:27:86:81:22:32:8f:4a:b7:48:f3:61:b3:c3:53:
+         0c:8f:03:80:95:37:f9:99:32:69:60:97:2f:55:e9:ee:b4:85:
+         3d:d3:87:44:89:89:0a:8b:07:91:a8:94:a4:a5:42:d5:ec:6e:
+         d8:ff:94:77:01:d5:75:6c:34:ea:bf:1f:fe:6f:79:88:90:cf:
+         66:6d:a6:85:5d:89:86:7f:87:2a:0d:ab:3f:f6:7f:d3:81:a7:
+         06:1a:21:e0:65:bf:e0:bc:58:2a:19:5e:76:6f:56:33:d2:29:
+         f1:56:d1:21:82:7f:7c:b7:50:b0:ff:a3:87:61:73:5c:63:0c:
+         38:96:a1:a7:35:49:ea:13:94:60:e3:98:6a:3a:a5:7a:67:bd:
+         fa:c8:8c:0c:2b:a7:f4:33:42:b0:c3:62:52:c4:0c:bd:bf:7b:
+         73:8e:e0:c0:e9:fb:57:cd:49:8c:c4:f5:45:67:be:c5:08:31:
+         f1:99:b8:22:9f:8a:ba:5b:81:3f:75:39:70:ef:15:ec:f8:33:
+         21:f6:3f:ab:a0:6d:cb:8c:87:46:c5:b3:46:86:52:c2:1f:19:
+         12:8f:7e:5b:f4:bb:ee:84:b3:2b:9f:aa:5f:ef:e9:aa:7a:00:
+         a3:c9:74:be:e4:6d:88:09:31:ba:0c:73:8a:40:3f:42:80:a0:
+         62:7d:ec:c7:0d:91:d9:85:dd:f1:68:85:20:e6:1e:9e:e0:9a:
+         d8:3c:6b:0a:c1:fe:79:6d:5e:99:8e:69:49:be:0a:3e:54:1b:
+         bf:ef:17:cd:d7:39:39:88:42:6d:cc:10:fd:7c:46:46:99:07:
+         dc:a7:b3:8a:a4:05:48:ac:70:01:9b:1b:ef:df:1d:c0:bf:76:
+         5e:c8:5b:d9:e4:1e:0c:6f:65:03:06:80:44:68:20:f1:3f:f0:
+         33:48:ad:db:d2:a7:02:47:3f:cc:0d:bf:ef:ae:fc:73:6a:bb:
+         7a:be:6b:a0:70:82:47:a9:17:4e:dc:29:73:ea:43:7c:3e:9f:
+         64:77:36:5f:ce:48:72:4b:25:89:e2:4c:1a:60:8f:76:f4:a9:
+         75:a5:d8:25:b3:3a:0d:85:ae:24:e7:95:60:cd:b8:67:21:26:
+         d4:9d:e9:0e:72:f1:28:82
+-----BEGIN CERTIFICATE-----
+MIIGDzCCA/egAwIBAgITKgAOdCkp40w08uxoowAAAA50KTANBgkqhkiG9w0BAQ0F
+ADBQMQswCQYDVQQGEwJVUzEOMAwGA1UEChMFQU1LT1IxMTAvBgNVBAMTKEFta29y
+IElzc3VpbmcgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgVVMwHhcNMjIwMzA0MDMz
+OTUwWhcNMjQwMzAzMDMzOTUwWjCBkzELMAkGA1UEBhMCTVkxCzAJBgNVBAgTAk1Z
+MQswCQYDVQQHEwJNWTEOMAwGA1UEChMFQU1LT1IxDjAMBgNVBAsTBUFNS09SMSMw
+IQYDVQQDExptdW1kcmFwcDAxLm15LmRzLmFta29yLmNvbTElMCMGCSqGSIb3DQEJ
+ARYWTWFyay5UYWd1aWFkQGFta29yLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBANQI6OHKJrtHNEWqe8WZbT15lYZDOEMUt0nJd0MpXCLgrjXFgR3G
+ByK9bMfDavEO1HAG35cNYvDt3cyP/wKIEipJRpanqOWQzpHcc/Ks8PTfy1qWHG2D
+VVIp+ZQBD6Y0FLFEB8W8AXRdA98Ri+JAwLvd+Jwy7xLhjtGxfk75yoYvCdnHUzHh
+E9wmNpx1ozqfej+/cyJksOiSx8ftg+CgZt7Z8kgDd5zgh9N2DrBug+NrPMI+VzX6
+aS/xUApdQaYMKLI8s0Vak796KYiD0poekK1qetB+LTx3B1w6qgI9pTJag3ASR++g
+TtOpTfK7Pg2ugaI5wLMiQr9alj5FjOdYBxMCAwEAAaOCAZwwggGYMB0GA1UdDgQW
+BBSP8Rhs9c4y196phxjV6LHIG3VGbDAfBgNVHSMEGDAWgBR+aXXkvTC1S9HnEWOu
+Wo/KoO888DAvBgNVHR8EKDAmMCSgIqAghh5odHRwOi8vcGtpLkFta29yLm5ldC91
+c2ljYS5jcmwwYQYIKwYBBQUHAQEEVTBTMCoGCCsGAQUFBzAChh5odHRwOi8vcGtp
+LkFta29yLm5ldC91c2ljYS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9wa2kuQW1r
+b3IubmV0L29jc3AwDgYDVR0PAQH/BAQDAgWgMD0GCSsGAQQBgjcVBwQwMC4GJisG
+AQQBgjcVCIbLrw+CybhchpmDKoOt+nSE+LswgXmH/bQPpJwHAgFkAgEmMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMBMBsGCSsGAQQBgjcVCgQOMAwwCgYIKwYBBQUHAwEwQQYD
+VR0RBDowOIIabXVtZHJhcHAwMS5teS5kcy5hbWtvci5jb22CGm11bWRyYXBwMDEu
+bXkuZHMuYW1rb3IuY29tMA0GCSqGSIb3DQEBDQUAA4ICAQCSl1/HxphABCzBRY9t
+q0IDMf2JWl1C7AtORIqu6YcxRkyyy2QmQNEng9A8ZW3TjqHHNmGS/X3i5ZjAOgvn
+smyjhj544uCRY82AqSu+xzpvprxSo2/aMT8c94V7TVIFJ4aBIjKPSrdI82Gzw1MM
+jwOAlTf5mTJpYJcvVenutIU904dEiYkKiweRqJSkpULV7G7Y/5R3AdV1bDTqvx/+
+b3mIkM9mbaaFXYmGf4cqDas/9n/TgacGGiHgZb/gvFgqGV52b1Yz0inxVtEhgn98
+t1Cw/6OHYXNcYww4lqGnNUnqE5Rg45hqOqV6Z736yIwMK6f0M0Kww2JSxAy9v3tz
+juDA6ftXzUmMxPVFZ77FCDHxmbgin4q6W4E/dTlw7xXs+DMh9j+roG3LjIdGxbNG
+hlLCHxkSj35b9LvuhLMrn6pf7+mqegCjyXS+5G2ICTG6DHOKQD9CgKBifezHDZHZ
+hd3xaIUg5h6e4JrYPGsKwf55bV6ZjmlJvgo+VBu/7xfN1zk5iEJtzBD9fEZGmQfc
+p7OKpAVIrHABmxvv3x3Av3ZeyFvZ5B4Mb2UDBoBEaCDxP/AzSK3b0qcCRz/MDb/v
+rvxzart6vmugcIJHqRdO3Clz6kN8Pp9kdzZfzkhySyWJ4kwaYI929Kl1pdglszoN
+ha4k55VgzbhnISbUnekOcvEogg==
+-----END CERTIFICATE-----
